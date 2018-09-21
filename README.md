@@ -3,6 +3,16 @@
 
 ##### *Note*: The most recent version the JupyterNotebook is viewable by opening the ```Amazon-Data-Mining.ipynb``` above.
 
+## Installing Jupyter-Notebook
+Please ensrure that you have the latest version of python and pip. Your system PATH vriable will most likely need to be updated after downloading python3 from the web if on Windows.
+After python3 has been installed, enter the following in a terminal(CMD) window to install Jupyter Notebook:
+
+```
+pip3 install jupyter notebook
+or
+python3 -m pip install jupyter
+```
+
 ## Install For Developers
 For development, simply clone this Git repository in a directory convenient for you.
 Please ake sure that you have the ```train-jpg/```(600MB) image dataset as a folder in the same repository.
