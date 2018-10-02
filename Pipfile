@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
+plotly = "*"
+ipykernel = "*"
+rise = "*"
+opencv-python = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
